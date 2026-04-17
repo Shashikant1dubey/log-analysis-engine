@@ -20,34 +20,18 @@ It demonstrates a **production-style architecture** using CLI execution, modular
 ---
 
 ## 🏗️ Project Structure
-log-analysis-engine/
-│
-├── src/
-│ ├── core/
-│ │ └── processor.py
-│ │## 🏗️ Project Structure
 
-```bash
-log-analysis-engine/
-│
-├── src/
-│   ├── core/
-│   │   └── processor.py
-│   │
-│   ├── pipelines/
-│   │   └── run_pipeline.py
-│   │
+```
+📦 log-analysis-engine
+├── 📁 src
+│   ├── 📁 core
+│   ├── 📁 pipelines
 │   └── main.py
-│
-├── data/
-│   └── sample_logs.txt
-│
-├── tests/
-│   └── test_processor.py
-│
-├── logs/
-├── requirements.txt
-└── README.md
+├── 📁 data
+├── 📁 tests
+├── 📁 logs
+├── 📄 requirements.txt
+└── 📄 README.md
 ```
 
 ---
