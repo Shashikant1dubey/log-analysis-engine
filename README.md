@@ -25,21 +25,30 @@ log-analysis-engine/
 ├── src/
 │ ├── core/
 │ │ └── processor.py
-│ │
-│ ├── pipelines/
-│ │ └── run_pipeline.py
-│ │
-│ └── main.py
+│ │## 🏗️ Project Structure
+
+```bash
+log-analysis-engine/
+│
+├── src/
+│   ├── core/
+│   │   └── processor.py
+│   │
+│   ├── pipelines/
+│   │   └── run_pipeline.py
+│   │
+│   └── main.py
 │
 ├── data/
-│ └── sample_logs.txt
+│   └── sample_logs.txt
 │
 ├── tests/
-│ └── test_processor.py
+│   └── test_processor.py
 │
 ├── logs/
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
